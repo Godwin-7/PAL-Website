@@ -1,70 +1,143 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+PLATFORM PAGE — DRAFT (PALANTIR STYLE) 
+HERO 
+Headline: 
+A cognitive operating system for service operations. 
+Subhead: 
+PAL transforms workforce, workflows, and knowledge into an intelligent, agent-driven system connecting learning, execution, and quality into a continuous loop. 
+CTA: 
+•	Explore Foundries  
+•	Request Access  
+ 
+SECTION 1: THE PROBLEM (PALANTIR-STYLE CONTEXT) Service operations today are fragmented. 
+•	Training is disconnected from execution  
+•	SOPs are static and hard to navigate  
+•	QA/QC is reactive and sampled  
+•	Learning does not translate into performance  Result: 
+Slow proficiency. High error rates. Limited scalability. 
+ 
+SECTION 2: THE PLATFORM (SLIDE 5 TRANSLATED) Headline: 
+One system across the entire service lifecycle. 
+PAL unifies every stage of service operations into a single intelligence layer: 
+Lifecycle: 
+•	Workforce planning & recruitment  
+•	Training & competency development  
+•	Task allocation & execution  
+•	Service delivery & SLA management  
+•	Quality, compliance & governance  
+•	Continuous improvement  
+ All connected into one system, not siloed processes  
+ 
+Core Statement: 
+PAL does not optimize steps. It transforms the entire system. 
+SECTION 3: HOW IT WORKS (PLATFORM ARCHITECTURE) Headline: 
+From knowledge to execution to outcomes. 
+ 
+Layer 1: Knowledge & Instruction 
+•	SOPs  
+•	Training content  
+•	Institutional knowledge  Structured through: 
+•	Instruction Design Co-Pilot (SARA)  
+•	Knowledge Graph + Ontology  
+ 
+Layer 2: Learning & Interaction 
+•	Learning Co-Pilot  
+•	Interaction Co-Pilot  
+•	Simulation environments  
+Converts knowledge into proficiency 
+ 
+Layer 3: Execution 
+•	Real workflows  
+•	Task handling  
+•	Customer interactions  
+Guided by co-pilots in real time 
+ 
+Layer 4: QA/QC & Compliance 
+•	Full interaction monitoring  
+•	Compliance validation  
+•	Performance scoring  
+Ensures accuracy and governance at scale 
+ 
+Layer 5: Continuous Improvement 
+•	Feedback loops  
+•	Model tuning  
+•	Process optimization  
+Every action improves the system 
+SECTION 4: AGENTIC SYSTEM (SLIDE 6 — CORE DIFFERENTIATOR) Headline: 
+An agentic architecture — not just copilots. 
+PAL is built as a coordinated system of agents: 
+ 
+Core Agents: 
+•	Capture & Structure Agent 
+Converts raw knowledge into structured systems  
+•	Learning & Enablement Agents 
+Build and optimize workforce capability  
+•	QA/QC Super Agent 
+Evaluates every interaction  
+•	AOP Execution Agents 
+Drive real-time operational decisions  
+•	AI Coach + Simulation Agents Train, guide, and improve performance  
+ 
+Orchestration Layer: 
+All agents are coordinated through a central orchestrator ensuring alignment between learning, execution, and compliance. 
+ 
+Key Concept: 
+PAL transforms SOPs into Agentic Operating Procedures (AOPs) living systems that guide, evaluate, and improve work in real time.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION 5: HUMAN + AI COLLABORATION Headline: 
+Built for humans. Powered by intelligence. 
+PAL connects every role: 
+•	Learners & new hires  
+•	Associates / CSRs  
+•	Trainers & L&D leaders  
+•	QA & operations leaders  
+•	Compliance officers  
+ 
+With: 
+•	Real-time guidance  
+•	Continuous feedback  
+•	Human-in-the-loop validation  
+ 
+Key Line: 
+Humans execute. Agents assist. The system learns. 
+ 
+SECTION 6: DATA → INTELLIGENCE → OUTCOMES Headline: 
+Every interaction becomes intelligence. 
+PAL captures: 
+•	Calls, chats, emails  
+•	Screens and workflows  
+•	SOP usage  
+•	Training behaviour  
+ 
+Transforms into: 
+•	Proficiency insights  
+•	Compliance signals  
+•	Performance optimization  
+ 
+Outcome: 
+A continuously improving system where learning, execution, and quality are inseparable. 
+ 
+SECTION 7: INFRASTRUCTURE (OPTIONAL — FOR DEPTH) Headline: 
+Enterprise-grade architecture. 
+•	Data Layer (Azure, vector stores, synthetic data)  
+•	Knowledge Layer (ontology, SOP graphs)  
+•	Model Layer (LLMs, domain models)  
+•	Interaction Layer (copilots, dashboards)  
+•	Governance Layer (security, compliance)  
+ 
+SECTION 8: CLOSING 
+The future of service operations is not automation alone. 
+It is intelligent systems that learn, adapt, and scale. 
+CTA: 
+•	Explore Foundries  
+•	Request Access  
+ 
