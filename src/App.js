@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react'
+import { ThemeProvider, useTheme } from './context/ThemeContext'
+import Navbar from './components/Navbar'
+import Hero from './sections/Hero'
+import Problem from './sections/Problem'
+import Platform from './sections/Platform'
+import Architecture from './sections/Architecture'
+import AgenticCore from './sections/AgenticCore'
+import HumanAI from './sections/HumanAI'
+import Intelligence from './sections/Intelligence'
+import Infrastructure from './sections/Infrastructure'
+import CTA from './sections/CTA'
+import Footer from './sections/Footer'
+import './index.css'
 
-function App() {
+function AppContent() {
+  const { isDark } = useTheme()
+
+  useEffect(() => {
+    document.body.className = isDark ? 'theme-dark' : 'theme-light'
+  }, [isDark])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ minHeight: '100vh' }}>
+      <Navbar />
+      <main>
+        <Hero />
+        <Problem />
+        <Platform />
+        <Architecture />
+        <AgenticCore />
+        <Intelligence />
+        <HumanAI />
+        <Infrastructure />
+        <CTA />
+      </main>
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
+  )
+}
