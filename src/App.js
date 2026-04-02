@@ -1,48 +1,44 @@
 import { useEffect } from 'react'
-import { ThemeProvider, useTheme } from './context/ThemeContext'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
-import Hero from './sections/Hero'
-import Problem from './sections/Problem'
-import Platform from './sections/Platform'
-import Architecture from './sections/Architecture'
-import AgenticCore from './sections/AgenticCore'
-import HumanAI from './sections/HumanAI'
-import Intelligence from './sections/Intelligence'
-import Infrastructure from './sections/Infrastructure'
-import CTA from './sections/CTA'
-import Footer from './sections/Footer'
+import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import FoundryPage from './pages/FoundryPage'
+import LearningPage from './pages/LearningPage'
+import TeamPage from './pages/TeamPage'
+import ContactPage from './pages/ContactPage'
 import './index.css'
 
-function AppContent() {
-  const { isDark } = useTheme()
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
 
-  useEffect(() => {
-    document.body.className = isDark ? 'theme-dark' : 'theme-light'
-  }, [isDark])
-
+function Layout() {
   return (
-    <div style={{ minHeight: '100vh' }}>
+    <>
+      <ScrollToTop />
       <Navbar />
-      <main>
-        <Hero />
-        <Problem />
-        <Platform />
-        <Architecture />
-        <AgenticCore />
-        <Intelligence />
-        <HumanAI />
-        <Infrastructure />
-        <CTA />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/foundry" element={<FoundryPage />} />
+        <Route path="/learning" element={<LearningPage />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   )
 }
 
 export default function App() {
   return (
     <ThemeProvider>
-      <AppContent />
+      <BrowserRouter>
+        <Layout />
+      </BrowserRouter>
     </ThemeProvider>
   )
 }
