@@ -12,7 +12,10 @@ src/
 │   └── home/
 │       ├── Hero.jsx
 │       ├── PlatformOverview.jsx
+│       ├── Problem.jsx 
 │       ├── AgenticCore.jsx
+│       ├── Architecture.jsx
+│       ├── Intelligence.jsx
 │       ├── About.jsx               ← NEW: About Us on homepage
 │       └── CTA.jsx
 └── pages/
